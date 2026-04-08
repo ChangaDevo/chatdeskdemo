@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:themesdesign.in)",
+      "Bash(/c/xampp/mysql/bin/mysql.exe -u root -e \"CREATE DATABASE IF NOT EXISTS chatdesk CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;\")",
+      "Bash(composer install:*)",
+      "Bash(npm install:*)",
+      "Bash(php artisan:*)",
+      "Bash(composer require:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
